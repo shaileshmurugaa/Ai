@@ -34,7 +34,7 @@ def chat():
 def get_voice():
     return send_file("response.mp3", mimetype="audio/mpeg")
 
-    import os
-    if __name__ == "__main__":
+# ✅ Correct position and indentation
+if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
